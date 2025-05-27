@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">mvvmDbApp</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="add_user">Add User</string>
+    <string name="new_name">New Name</string>
+    <string name="new_email">New Email</string>
+</resources>

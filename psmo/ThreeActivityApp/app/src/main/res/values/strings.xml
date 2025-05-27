@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ThreeActivityApp</string>
+    <string name="enter_something">Enter something</string>
+    <string name="return_to_start">Return to Start</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="exit">Exit</string>
+    <string name="launch_second">Launch Second</string>
+    <string name="launch_third">Launch Third</string>
+    <string name="value_for_other_activities">Value for other activities</string>
+    <string name="result_from_activity">Result from Activity</string>
+</resources>

@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnStartThread"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#DAC503"
+            android:text="@string/start_thread"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvThread"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <Button
+            android:id="@+id/btnStartCoroutine"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#DAC503"
+            android:text="@string/start_coroutine" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvCoroutine"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <Button android:id="@+id/btnStartService"
+            android:text="@string/start_service"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#DAC503" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvService"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+    </LinearLayout>
+</LinearLayout>

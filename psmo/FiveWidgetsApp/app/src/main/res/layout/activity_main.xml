@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/color_background">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/enter_your_name"
+        android:textSize="20sp"
+        android:textColor="@color/color_accent_variant" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:autofillHints="username"
+        android:gravity="center"
+        android:hint="@string/your_name"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:textColor="@color/color_on_primary"
+        android:backgroundTint="@color/color_primary" />
+
+    <CheckBox
+        android:id="@+id/cbAgree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/i_agree_to_the_terms_and_conditions"
+        android:textSize="18sp"
+        android:textColor="@color/color_accent" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/submit"
+        android:textSize="20sp"
+        android:backgroundTint="@color/color_primary"
+        android:textColor="@color/color_on_primary" />
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@color/color_surface"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_launcher_foreground" />
+
+</LinearLayout>

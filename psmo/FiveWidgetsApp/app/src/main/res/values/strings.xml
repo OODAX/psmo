@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FiveWidgetsApp</string>
+    <string name="enter_your_name">Enter your name:</string>
+    <string name="your_name">Your Name</string>
+    <string name="i_agree_to_the_terms_and_conditions">I agree to the terms and conditions</string>
+    <string name="submit">Submit</string>
+</resources>

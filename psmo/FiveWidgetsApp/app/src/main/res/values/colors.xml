@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary & Surface -->
+    <color name="color_primary">#3A86FF</color>
+    <color name="color_primary_variant">#22223B</color>
+    <color name="color_surface">#22223B</color>
+    <color name="color_background">#1A1A2E</color>
+
+    <!-- Accent & Secondary -->
+    <color name="color_accent">#FF006E</color>
+    <color name="color_accent_variant">#FFBE0B</color>
+
+    <!-- Text & Icons -->
+    <color name="color_on_primary">#FFFFFFFF</color>
+    <color name="color_on_secondary">#FF000000</color>
+    <color name="color_on_accent">#FFFFFFFF</color>
+    <color name="color_hint">#03DAC5</color>
+
+    <!-- Utility -->
+    <color name="color_white">#FFFFFFFF</color>
+    <color name="color_black">#FF000000</color>
+</resources>

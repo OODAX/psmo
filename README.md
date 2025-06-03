@@ -5,7 +5,8 @@
 This repository contains coursework and materials for the *Programowanie Systemów Mobilnych* (Mobile Systems Programming) course for the Summer semester 2024/2025.
 
 ## 🔗 Useful Links
-- [Node.js Official Website](https://nodejs.org/)
+- [Download Node.js](https://nodejs.org/)
+- [Download Android Studio](https://developer.android.com/studio)
 - [Android Security Best Practices](https://developer.android.com/privacy-and-security/security-config)
 
 ## 🛠️ Bash Commands

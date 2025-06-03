@@ -20,7 +20,7 @@ This repository contains coursework and materials for the *Programowanie System�
    - [App](./NetworkApp)  
    - [Server](./post-api-server)
 
-## 🛠️ Bash Commands
+## 🛠️ Command Line Instructions
 
 ### Clone the repository
 ```bash

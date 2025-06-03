@@ -10,13 +10,13 @@ This repository contains coursework and materials for the *Programowanie System�
 - [Android Security Best Practices](https://developer.android.com/privacy-and-security/security-config)
 
 ## 🧪 Laboratoria – kolejność i foldery
-1. [Laboratorium 1 – Widgets](./FiveWidgetsApp)
-2. [Laboratorium 2 – Activities](./ThreeActivityApp)
-3. [Laboratorium 3 – Sensors](./ThreeSensorsApp)
-4. [Laboratorium 4 – Data Base](./simpleDbApp)
-5. [Laboratorium 5 – Threads](./ConcurrentApp)
-6. [Laboratorium 6 – MVVM](./mvvmDbapp)
-7. Laboratorium 7 – Networking  
+- Laboratorium 1 – [Widgets](./FiveWidgetsApp)
+- Laboratorium 2 – [Activities](./ThreeActivityApp)
+- Laboratorium 3 – [Sensors](./ThreeSensorsApp)
+- Laboratorium 4 – [Data Base](./simpleDbApp)
+- Laboratorium 5 – [Threads](./ConcurrentApp)
+- Laboratorium 6 – [MVVM](./mvvmDbapp)
+- Laboratorium 7 – Networking  
    - [App](./NetworkApp)  
    - [Server](./post-api-server)
 

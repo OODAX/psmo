@@ -30,17 +30,23 @@ cd psmo
 
 ### ADB connection to device
 ```bash
+adb kill-server
+# Plug USB 
+adb devices
+adb shell ip addr show wlan0 # to get <device_ip>
+adb tcpip 5555
 adb connect <device_ip>:5555
+# Disconnect the USB
 ```
 
 ### Listen on UDP port with ncat
 ```bash
-ncat -u -l <port>
+ncat -u -l <port> -v
 ```
 
 ### Send UDP message with ncat
 ```bash
-echo "message" | ncat -u <target_ip> <port>
+echo "message" | ncat -u <target_ip> <port> -v
 ```
 
 ### Start Node.js server

@@ -24,7 +24,7 @@ This repository contains coursework and materials for the *Programowanie System√
 
 ### Clone the repository
 ```bash
-git clone https://github.com/yourusername/psmo.git
+git clone https://github.com/OODAX/psmo.git
 cd psmo
 ```
 

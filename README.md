@@ -15,8 +15,9 @@ This repository contains coursework and materials for the *Programowanie System�
 4. [Laboratorium 4 – Data Base](./simpleDbApp)
 5. [Laboratorium 5 – Threads](./ConcurrentApp)
 6. [Laboratorium 6 – MVVM](./mvvmDbapp)
-7. [Laboratorium 7 – Networking - App](./NetworkApp)
-   [Laboratorium 7 – Networking - Server](./post-api-server)
+7. Laboratorium 7 – Networking  
+   - [App](./NetworkApp)  
+   - [Server](./post-api-server)
 
 ## 🛠️ Bash Commands
 

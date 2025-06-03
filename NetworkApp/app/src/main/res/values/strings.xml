@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NetworkApp</string>
+    <string name="send_udp_message">Send UDP Message</string>
+    <string name="udp_output_here">UDP Output Here</string>
+    <string name="fetch_api_data">Fetch API Data</string>
+    <string name="api_output_here">API Output Here</string>
+    <string name="port">Port</string>
+    <string name="_12345">12345</string>
+    <string name="_192_168_1_11">192.168.1.11</string>
+    <string name="ip_address">IP address</string>
+</resources>

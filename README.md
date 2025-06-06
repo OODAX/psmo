@@ -49,6 +49,11 @@ ncat -u -l <port> -v
 echo "message" | ncat -u <target_ip> <port> -v
 ```
 
+### Install missing packages
+```bash
+npm install
+```
+
 ### Start Node.js server
 ```bash
 node server.js

@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        supportActionBar?.hide() // Hide the action bar
+
         accelText = findViewById(R.id.accelText)
         lightText = findViewById(R.id.lightText)
         proximityText = findViewById(R.id.proximityText)

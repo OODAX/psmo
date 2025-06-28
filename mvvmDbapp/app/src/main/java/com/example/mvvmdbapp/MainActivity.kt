@@ -25,6 +25,8 @@ class MainActivity : AppCompatActivity(), UserAdapter.OnItemClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        supportActionBar?.hide() // Hide the action bar
+
         // UI references
         etName = findViewById(R.id.etName)
         etEmail = findViewById(R.id.etEmail)

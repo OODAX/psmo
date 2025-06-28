@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        supportActionBar?.hide() // Hide the action bar
+
         db = DBHelper(this)
         listView = findViewById(R.id.listView)
         val input = findViewById<EditText>(R.id.editText)
